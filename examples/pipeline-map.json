@@ -1,0 +1,42 @@
+[
+    {
+     "pipeline_name": "Untriaged",
+     "old_pipeline_id": "Z2lkOi8vcmFwdG9yL1BpcGVsaW5lLzIzNTA2NDI",
+     "new_pipeline_id": "Z2lkOi8vcmFwdG9yL1BpcGVsaW5lLzIzNTA2NDI"
+    },
+    {
+     "pipeline_name": "Product Backlog",
+     "old_pipeline_id": "Z2lkOi8vcmFwdG9yL1BpcGVsaW5lLzIzNTA1OTU",
+     "new_pipeline_id": "Z2lkOi8vcmFwdG9yL1BpcGVsaW5lLzIzNTA1OTU"
+    },
+    {
+     "pipeline_name": "Release Backlog",
+     "old_pipeline_id": "Z2lkOi8vcmFwdG9yL1BpcGVsaW5lLzIzNTA3MjM",
+     "new_pipeline_id": "Z2lkOi8vcmFwdG9yL1BpcGVsaW5lLzIzNTA3MjM"
+    },
+    {
+     "pipeline_name": "Sprint Backlog",
+     "old_pipeline_id": "Z2lkOi8vcmFwdG9yL1BpcGVsaW5lLzIzNTA1OTY",
+     "new_pipeline_id": "Z2lkOi8vcmFwdG9yL1BpcGVsaW5lLzIzNTA1OTY"
+    },
+    {
+     "pipeline_name": "In Progress",
+     "old_pipeline_id": "Z2lkOi8vcmFwdG9yL1BpcGVsaW5lLzIzNTA1OTc",
+     "new_pipeline_id": "Z2lkOi8vcmFwdG9yL1BpcGVsaW5lLzIzNTA1OTc"
+    },
+    {
+     "pipeline_name": "Epics In Progress",
+     "old_pipeline_id": "Z2lkOi8vcmFwdG9yL1BpcGVsaW5lLzIzNTA3NjA",
+     "new_pipeline_id": "Z2lkOi8vcmFwdG9yL1BpcGVsaW5lLzIzNTA3NjA"
+    },
+    {
+     "pipeline_name": "Ready For Playback",
+     "old_pipeline_id": "Z2lkOi8vcmFwdG9yL1BpcGVsaW5lLzIzNTA3Njg",
+     "new_pipeline_id": "Z2lkOi8vcmFwdG9yL1BpcGVsaW5lLzIzNTA3Njg"
+    },
+    {
+     "pipeline_name": "Awaiting Verification",
+     "old_pipeline_id": "Z2lkOi8vcmFwdG9yL1BpcGVsaW5lLzIzNTA1OTg",
+     "new_pipeline_id": "Z2lkOi8vcmFwdG9yL1BpcGVsaW5lLzIzNTA1OTg"
+    }
+]
