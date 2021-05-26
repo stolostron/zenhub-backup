@@ -70,7 +70,7 @@ The one additional thing that you'll need for a restore action is a mapping file
 There is an example json named `examples/pipeline-map.json` in this repo that shows how it's structured.  It's just an array of elements that map the pipeline identifiers (and names, for readability).  You can learn your own pipeline names and IDs with this bit of `jq` from an existing backup you've made:
 
 ```
-jq '.pipelines[] | "pipeline_name=\(.name) old_pipeline_id=\(.id)"' zenhub-board.json 
+jq -r '.pipelines[] | "{\"pipeline_name\":\"\(.name)\", \"old_pipeline_id\":\"\(.id)\"}"' zenhub-board.json
 ```
 If you've recreated your pipelines, another backup (to a new name!) will give you the key to your new pipeline IDs to insert into your `pipeline-map.json`.
 
