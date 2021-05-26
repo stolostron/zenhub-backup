@@ -74,6 +74,11 @@ jq '.pipelines[] | "pipeline_name=\(.name) old_pipeline_id=\(.id)"' zenhub-board
 ```
 If you've recreated your pipelines, another backup (to a new name!) will give you the key to your new pipeline IDs to insert into your `pipeline-map.json`.
 
+You can get a nice summary of how many issues are in each pipeline with this `jq`:
+```
+jq -r '.pipelines[] | "\(.name): \(.issues | length)"' zenhub-board.json
+```
+
 As before, set your environment variables - and try a dry run first:
 ```
 export ZENHUB_API_TOKEN=<my secret API token, shhhh>
